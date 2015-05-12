@@ -15,6 +15,11 @@ public class SalesData {
 			sum += i;
 		}
 		
+		//new for
+		for (int j: data){
+			System.out.println(j);
+		}
+		
 		System.out.println("Sum is: " + sum);
 	}
 
